@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		374FC46E1D7D816E0099FE1A /* iPadPro167Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 374FC46D1D7D816E0099FE1A /* iPadPro167Icon.png */; };
+		374FC4701D7D817D0099FE1A /* iPad76Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 374FC46F1D7D817D0099FE1A /* iPad76Icon.png */; };
+		37923E891D7B00330098430F /* SettingsUnselected2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37923E881D7B00330098430F /* SettingsUnselected2.png */; };
+		37923E8B1D7B003C0098430F /* SettingsSelected2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37923E8A1D7B003C0098430F /* SettingsSelected2.png */; };
+		37923E8F1D7B04280098430F /* UnSelectedImageCalc.png in Resources */ = {isa = PBXBuildFile; fileRef = 37923E8E1D7B04280098430F /* UnSelectedImageCalc.png */; };
+		37923E911D7B04800098430F /* SelectedImageCalc.png in Resources */ = {isa = PBXBuildFile; fileRef = 37923E901D7B04800098430F /* SelectedImageCalc.png */; };
+		37923E951D7B0DDF0098430F /* AppIconiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 37923E921D7B0DDF0098430F /* AppIconiPad.png */; };
+		37923E961D7B0DDF0098430F /* AppIconIphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = 37923E931D7B0DDF0098430F /* AppIconIphone4.png */; };
+		37923E971D7B0DDF0098430F /* AppIconIphone6S.png in Resources */ = {isa = PBXBuildFile; fileRef = 37923E941D7B0DDF0098430F /* AppIconIphone6S.png */; };
+		37923E9B1D7BBDC30098430F /* LaunchScreenCompanyiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 37923E9A1D7BBDC30098430F /* LaunchScreenCompanyiPad.png */; };
+		37AC2A8C1D71CA1E00EA9B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC2A8B1D71CA1E00EA9B37 /* AppDelegate.swift */; };
+		37AC2A911D71CA1E00EA9B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37AC2A8F1D71CA1E00EA9B37 /* Main.storyboard */; };
+		37AC2A931D71CA1E00EA9B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AC2A921D71CA1E00EA9B37 /* Assets.xcassets */; };
+		37AC2A961D71CA1E00EA9B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37AC2A941D71CA1E00EA9B37 /* LaunchScreen.storyboard */; };
+		37AC2A9E1D71CA3700EA9B37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AC2A9D1D71CA3700EA9B37 /* UIKit.framework */; };
+		37AC2AA01D71CA4300EA9B37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AC2A9F1D71CA4300EA9B37 /* CoreGraphics.framework */; };
+		37AC2AA21D71CA4800EA9B37 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AC2AA11D71CA4800EA9B37 /* AudioToolbox.framework */; };
+		37AC2AA41D71CA4E00EA9B37 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AC2AA31D71CA4E00EA9B37 /* AVFoundation.framework */; };
+		37AC2AA71D71CAF300EA9B37 /* CalculatedTaxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC2AA61D71CAF300EA9B37 /* CalculatedTaxController.swift */; };
+		37AC2AA91D71CB0900EA9B37 /* CalculateTaxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC2AA81D71CB0900EA9B37 /* CalculateTaxMain.swift */; };
+		37AC2AAB1D71CB1700EA9B37 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC2AAA1D71CB1700EA9B37 /* SettingsController.swift */; };
+		37AC2AAD1D71CCD400EA9B37 /* TabMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC2AAC1D71CCD400EA9B37 /* TabMaster.swift */; };
+		37AC2AAF1D71D17500EA9B37 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC2AAE1D71D17500EA9B37 /* Utilities.swift */; };
+		37AC2AB11D71D31F00EA9B37 /* NavMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC2AB01D71D31F00EA9B37 /* NavMaster.swift */; };
+		37AC2AB31D72A74B00EA9B37 /* SampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC2AB21D72A74A00EA9B37 /* SampleController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		374FC46D1D7D816E0099FE1A /* iPadPro167Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPro167Icon.png; sourceTree = "<group>"; };
+		374FC46F1D7D817D0099FE1A /* iPad76Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad76Icon.png; sourceTree = "<group>"; };
+		37923E881D7B00330098430F /* SettingsUnselected2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsUnselected2.png; sourceTree = "<group>"; };
+		37923E8A1D7B003C0098430F /* SettingsSelected2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsSelected2.png; sourceTree = "<group>"; };
+		37923E8E1D7B04280098430F /* UnSelectedImageCalc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnSelectedImageCalc.png; sourceTree = "<group>"; };
+		37923E901D7B04800098430F /* SelectedImageCalc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectedImageCalc.png; sourceTree = "<group>"; };
+		37923E921D7B0DDF0098430F /* AppIconiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconiPad.png; sourceTree = "<group>"; };
+		37923E931D7B0DDF0098430F /* AppIconIphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconIphone4.png; sourceTree = "<group>"; };
+		37923E941D7B0DDF0098430F /* AppIconIphone6S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconIphone6S.png; sourceTree = "<group>"; };
+		37923E9A1D7BBDC30098430F /* LaunchScreenCompanyiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreenCompanyiPad.png; sourceTree = "<group>"; };
+		37AC2A881D71CA1E00EA9B37 /* ShowMeTheMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowMeTheMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37AC2A8B1D71CA1E00EA9B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37AC2A901D71CA1E00EA9B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37AC2A921D71CA1E00EA9B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37AC2A951D71CA1E00EA9B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37AC2A971D71CA1E00EA9B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37AC2A9D1D71CA3700EA9B37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37AC2A9F1D71CA4300EA9B37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37AC2AA11D71CA4800EA9B37 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		37AC2AA31D71CA4E00EA9B37 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		37AC2AA61D71CAF300EA9B37 /* CalculatedTaxController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatedTaxController.swift; sourceTree = "<group>"; };
+		37AC2AA81D71CB0900EA9B37 /* CalculateTaxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateTaxMain.swift; sourceTree = "<group>"; };
+		37AC2AAA1D71CB1700EA9B37 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		37AC2AAC1D71CCD400EA9B37 /* TabMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabMaster.swift; sourceTree = "<group>"; };
+		37AC2AAE1D71D17500EA9B37 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		37AC2AB01D71D31F00EA9B37 /* NavMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavMaster.swift; sourceTree = "<group>"; };
+		37AC2AB21D72A74A00EA9B37 /* SampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37AC2A851D71CA1E00EA9B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AC2AA41D71CA4E00EA9B37 /* AVFoundation.framework in Frameworks */,
+				37AC2AA21D71CA4800EA9B37 /* AudioToolbox.framework in Frameworks */,
+				37AC2AA01D71CA4300EA9B37 /* CoreGraphics.framework in Frameworks */,
+				37AC2A9E1D71CA3700EA9B37 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37AC2A7F1D71CA1D00EA9B37 = {
+			isa = PBXGroup;
+			children = (
+				37AC2AA51D71CA5D00EA9B37 /* Frameworks */,
+				37AC2A8A1D71CA1E00EA9B37 /* ShowMeMyTax */,
+				37AC2A891D71CA1E00EA9B37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37AC2A891D71CA1E00EA9B37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37AC2A881D71CA1E00EA9B37 /* ShowMeTheMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37AC2A8A1D71CA1E00EA9B37 /* ShowMeMyTax */ = {
+			isa = PBXGroup;
+			children = (
+				37923E881D7B00330098430F /* SettingsUnselected2.png */,
+				37923E8A1D7B003C0098430F /* SettingsSelected2.png */,
+				37923E901D7B04800098430F /* SelectedImageCalc.png */,
+				37923E8E1D7B04280098430F /* UnSelectedImageCalc.png */,
+				37923E9A1D7BBDC30098430F /* LaunchScreenCompanyiPad.png */,
+				374FC46D1D7D816E0099FE1A /* iPadPro167Icon.png */,
+				37923E921D7B0DDF0098430F /* AppIconiPad.png */,
+				374FC46F1D7D817D0099FE1A /* iPad76Icon.png */,
+				37923E931D7B0DDF0098430F /* AppIconIphone4.png */,
+				37923E941D7B0DDF0098430F /* AppIconIphone6S.png */,
+				37AC2A8B1D71CA1E00EA9B37 /* AppDelegate.swift */,
+				37AC2A8F1D71CA1E00EA9B37 /* Main.storyboard */,
+				37AC2AB21D72A74A00EA9B37 /* SampleController.swift */,
+				37AC2AB01D71D31F00EA9B37 /* NavMaster.swift */,
+				37AC2AAC1D71CCD400EA9B37 /* TabMaster.swift */,
+				37AC2AAE1D71D17500EA9B37 /* Utilities.swift */,
+				37AC2AAA1D71CB1700EA9B37 /* SettingsController.swift */,
+				37AC2AA81D71CB0900EA9B37 /* CalculateTaxMain.swift */,
+				37AC2AA61D71CAF300EA9B37 /* CalculatedTaxController.swift */,
+				37AC2A921D71CA1E00EA9B37 /* Assets.xcassets */,
+				37AC2A941D71CA1E00EA9B37 /* LaunchScreen.storyboard */,
+				37AC2A971D71CA1E00EA9B37 /* Info.plist */,
+			);
+			path = ShowMeMyTax;
+			sourceTree = "<group>";
+		};
+		37AC2AA51D71CA5D00EA9B37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37AC2AA31D71CA4E00EA9B37 /* AVFoundation.framework */,
+				37AC2AA11D71CA4800EA9B37 /* AudioToolbox.framework */,
+				37AC2A9F1D71CA4300EA9B37 /* CoreGraphics.framework */,
+				37AC2A9D1D71CA3700EA9B37 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37AC2A871D71CA1E00EA9B37 /* ShowMeTheMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37AC2A9A1D71CA1E00EA9B37 /* Build configuration list for PBXNativeTarget "ShowMeTheMoney" */;
+			buildPhases = (
+				37AC2A841D71CA1E00EA9B37 /* Sources */,
+				37AC2A851D71CA1E00EA9B37 /* Frameworks */,
+				37AC2A861D71CA1E00EA9B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowMeTheMoney;
+			productName = ShowMeMyTax;
+			productReference = 37AC2A881D71CA1E00EA9B37 /* ShowMeTheMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37AC2A801D71CA1D00EA9B37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dan Gerchcovich";
+				TargetAttributes = {
+					37AC2A871D71CA1E00EA9B37 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SYZZCVD6PU;
+					};
+				};
+			};
+			buildConfigurationList = 37AC2A831D71CA1D00EA9B37 /* Build configuration list for PBXProject "ShowMeTheMoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37AC2A7F1D71CA1D00EA9B37;
+			productRefGroup = 37AC2A891D71CA1E00EA9B37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37AC2A871D71CA1E00EA9B37 /* ShowMeTheMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37AC2A861D71CA1E00EA9B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AC2A961D71CA1E00EA9B37 /* LaunchScreen.storyboard in Resources */,
+				37923E9B1D7BBDC30098430F /* LaunchScreenCompanyiPad.png in Resources */,
+				37923E891D7B00330098430F /* SettingsUnselected2.png in Resources */,
+				374FC46E1D7D816E0099FE1A /* iPadPro167Icon.png in Resources */,
+				37923E951D7B0DDF0098430F /* AppIconiPad.png in Resources */,
+				37923E8B1D7B003C0098430F /* SettingsSelected2.png in Resources */,
+				374FC4701D7D817D0099FE1A /* iPad76Icon.png in Resources */,
+				37AC2A931D71CA1E00EA9B37 /* Assets.xcassets in Resources */,
+				37923E961D7B0DDF0098430F /* AppIconIphone4.png in Resources */,
+				37923E971D7B0DDF0098430F /* AppIconIphone6S.png in Resources */,
+				37923E911D7B04800098430F /* SelectedImageCalc.png in Resources */,
+				37923E8F1D7B04280098430F /* UnSelectedImageCalc.png in Resources */,
+				37AC2A911D71CA1E00EA9B37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37AC2A841D71CA1E00EA9B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AC2AA71D71CAF300EA9B37 /* CalculatedTaxController.swift in Sources */,
+				37AC2AAD1D71CCD400EA9B37 /* TabMaster.swift in Sources */,
+				37AC2AAF1D71D17500EA9B37 /* Utilities.swift in Sources */,
+				37AC2AB11D71D31F00EA9B37 /* NavMaster.swift in Sources */,
+				37AC2AAB1D71CB1700EA9B37 /* SettingsController.swift in Sources */,
+				37AC2AA91D71CB0900EA9B37 /* CalculateTaxMain.swift in Sources */,
+				37AC2A8C1D71CA1E00EA9B37 /* AppDelegate.swift in Sources */,
+				37AC2AB31D72A74B00EA9B37 /* SampleController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37AC2A8F1D71CA1E00EA9B37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37AC2A901D71CA1E00EA9B37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37AC2A941D71CA1E00EA9B37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37AC2A951D71CA1E00EA9B37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37AC2A981D71CA1E00EA9B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37AC2A991D71CA1E00EA9B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37AC2A9B1D71CA1E00EA9B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ShowMeMyTax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlphaGenius.ShowMeTheMoney;
+				PRODUCT_NAME = ShowMeTheMoney;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37AC2A9C1D71CA1E00EA9B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ShowMeMyTax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlphaGenius.ShowMeTheMoney;
+				PRODUCT_NAME = ShowMeTheMoney;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37AC2A831D71CA1D00EA9B37 /* Build configuration list for PBXProject "ShowMeTheMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37AC2A981D71CA1E00EA9B37 /* Debug */,
+				37AC2A991D71CA1E00EA9B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37AC2A9A1D71CA1E00EA9B37 /* Build configuration list for PBXNativeTarget "ShowMeTheMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37AC2A9B1D71CA1E00EA9B37 /* Debug */,
+				37AC2A9C1D71CA1E00EA9B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37AC2A801D71CA1D00EA9B37 /* Project object */;
+}
